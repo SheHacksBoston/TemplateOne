@@ -1,50 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#A2A4F1"
+    android:orientation="vertical"
     tools:context="com.example.alizedematas.startnewintent.MainActivity">
 
     <EditText
         android:id="@+id/old"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="634dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="#EAAF91"
         android:ems="10"
         android:text="Hello Welcome To"
         android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp" />
+         />
 
     <Button
         android:id="@+id/start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hit This Button!"
-        app:layout_constraintHorizontal_bias="0.552"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="220dp" />
+        />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="41dp"
+        android:layout_marginBottom="80dp"
         android:text="PoliMatch ! "
         android:textSize="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/start"
-        tools:layout_editor_absoluteX="8dp" />
+        />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="20dp" />
+        />
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
